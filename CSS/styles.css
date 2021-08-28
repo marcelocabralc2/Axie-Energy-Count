@@ -25,6 +25,7 @@ body {
 }
 
 .totem {
+  background-image: url("../Imagens/toten.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
