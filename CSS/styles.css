@@ -37,8 +37,8 @@ body {
 @media (min-width: 320px) and (max-width: 480px) {
   .totem {
     background-image: url("../Imagens/toten-small.png");
-    width: 208px;
-    height: 360px;
+    width: 347px;
+    height: 600px;
   }
 
 }
@@ -88,6 +88,12 @@ body {
   margin-top: 48%;
   border-style: hidden;
   user-select: none;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .results {
+    margin-top: 45%;
+  }
+
 }
 
 input::-webkit-outer-spin-button,
