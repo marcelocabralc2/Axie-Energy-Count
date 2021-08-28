@@ -39,7 +39,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 480px) {
   .totem {
-    /* background-image: url("../Imagens/toten.png"); */
+    background-image: url("../Imagens/toten.png")
     width: 405px;
     height: 700px;
   }
