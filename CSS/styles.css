@@ -25,7 +25,6 @@ body {
 }
 
 .totem {
-  /* background-image: url("../Imagens/TOTEM.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
