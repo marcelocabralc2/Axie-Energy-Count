@@ -2,11 +2,11 @@ window.onload = initPage;
 
 function initPage() {
   console.log("Fabrício trabalha na Nuuvem");
-  var results = 0;
+  var results = 3;
   var input = document.getElementById("input");
   console.log(input)
   var red = document.getElementById("RED");
-  red.onclick = function() {
+  red.onclick = function () {
     if (input.value >= 10) {
       return
     }
@@ -17,7 +17,7 @@ function initPage() {
   console.log(red)
 
   var green = document.getElementById("GREEN");
-  green.onclick = function() {
+  green.onclick = function () {
     if (input.value <= 0) {
       return
     }
@@ -29,7 +29,7 @@ function initPage() {
   console.log(green)
 
   var blue = document.getElementById("BLUE");
-  blue.onclick = function() {
+  blue.onclick = function () {
     if (input.value >= 10) {
       return
     }

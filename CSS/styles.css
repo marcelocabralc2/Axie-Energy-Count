@@ -1,11 +1,16 @@
+
+
+
+
 body {
   width: 100%;
   height: auto;
   display: flex;
   background-size: cover;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   font-family: 'Roboto Slab', serif;
+  user-select: none;
 }
 
 .background {
@@ -15,57 +20,70 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
 }
 
 .totem {
   /* background-image: url("../Imagens/TOTEM.png"); */
   background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: column;
   position: relative;
-  width: 200px;
-  height: 500px;
-  display: block;
+  width: 500px;
+  height: 865px;
+}
+.totem-img {
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  position: absolute;
+}
+
+@media  (resulition )   {
+  .totem {
+    background-image: url("../Imagens/TOTEMRED.png");
+  
+  }
+  
 }
 
 .add {
   background-color: transparent;
   cursor: pointer;
-  position: absolute;
-  width: 198px;
-  height: 80px;
-  top: 223px;
-  left: 36px;
+  width: 360px;
+  height: 140px;
+  margin-top: 20%;
+  
 }
 
 .substract {
   background-color: transparent;
   cursor: pointer;
-  position: absolute;
-  width: 198px;
-  height: 79px;
-  top: 308px;
-  left: 36px;
+  width: 360px;
+  height: 140px;
+  margin-bottom: 2%;
 }
 
 .next-round {
   background-color: transparent;
   cursor: pointer;
-  position: absolute;
-  width: 198px;
-  height: 49px;
-  top: 397px;
-  left: 36px;
+  width: 360px;
+  height: 80px;
+  margin-bottom: 9%;
 }
 
 .results {
   background-color: transparent;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   font-family: 'Roboto Slab', serif;
-  position: absolute;
-  top: 117px;
-  left: 108px;
+  margin-top: 48%;
+  border-style: hidden;
+  user-select: none;
 }
 
 input::-webkit-outer-spin-button,
@@ -76,12 +94,9 @@ input::-webkit-inner-spin-button {
 
 .results {
   color: white;
-  font-size: 25px;
+  font-size: 50px;
   text-align:center;
 }
 
 
-.imagem {
-  width: 100%;
-  height: 100%;
-}
+
